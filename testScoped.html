@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div[scopedDiv]{
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div scopedDiv>
+    这就是 vue 里 scoped 的本质，它借助的是 属性选择器（权重10）。
+    它会给 元素 添加的 用于区别的属性，style就只作用于模板。
+
+</div>
+</body>
+</html>
